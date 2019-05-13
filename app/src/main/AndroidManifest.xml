@@ -19,12 +19,12 @@
             android:relinquishTaskIdentity="true"
             android:windowSoftInputMode="stateAlwaysHidden|adjustResize"
             android:theme="@style/Theme.Transparent.NoAnimation"
-            android:label="YouTube GO" >
+            android:label="@string/youtube_name" >
 
-            <intent-filter android:label="Download With YouTube GO">
+            <intent-filter android:label="@string/youtube_name">
                 <action android:name="android.intent.action.SEND" />
                 <category android:name="android.intent.category.DEFAULT" />
-                <data android:mimeType="text/plain" />
+                <data android:mimeType="text/*"/>
             </intent-filter>
         </activity>
     </application>

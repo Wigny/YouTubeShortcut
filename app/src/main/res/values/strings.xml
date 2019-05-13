@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">YouTube Shortcut</string>
+    <string name="youtube_name">YouTube GO</string>
+    <string name="youtube_share_title">Download With YouTube GO</string>
 </resources>
